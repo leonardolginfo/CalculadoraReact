@@ -1,18 +1,14 @@
 
+import { Container, Content } from "./styles";
 
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
+    <Container>
+      <Content>
+      <p>teste</p>
+      </Content>
         
-        <p>
-          Projeto padrão instalado, partiu zerar tudo!!
-        </p>
-  
-  
-      </header>
-    </div>
+    </Container>
   );
 }
 
