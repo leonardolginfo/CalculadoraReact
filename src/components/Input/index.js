@@ -1,20 +1,12 @@
 
-
+import { InputContainer } from "./styles";
 
 const Input = () => {
     return (
-      <div className="App">
-        <header className="App-header">
-          
-          <p>
-            Projeto padrão instalado, partiu zerar tudo!!
-          </p>
-    
-    
-        </header>
-      </div>
+      <InputContainer>
+          <input />
+      </InputContainer>
     );
   }
-  
   export default Input;
   
