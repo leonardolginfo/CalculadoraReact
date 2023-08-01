@@ -1,15 +1,15 @@
 
+import {ButtonContainer} from './styles';
 
 
-const Button = () => {
+const Button = ({label, onClick}) => {
     return (
       <div className="App">
         <header className="App-header">
+          <ButtonContainer onClick={onClick}>
+            {label}
+          </ButtonContainer>
           
-          <p>
-            Projeto padrão instalado, partiu zerar tudo!!
-          </p>
-    
     
         </header>
       </div>
